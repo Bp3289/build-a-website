@@ -1,0 +1,45 @@
+h1 {
+	text-align: center;
+}
+
+#links ul {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+
+}
+
+#links ul li
+{
+    list-style-type: none;
+    display: inline;
+    }
+
+#links li:not(:first-child):before {
+    content: " | ";
+}
+
+p {
+	height: 200px;
+}
+
+#social ul {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+
+}
+
+#social ul li
+{
+    list-style-type: none;
+    display: inline;
+    }
+
+#social li:not(:first-child):before {
+    content: " | ";
+}
+
+.first {
+	
+}
